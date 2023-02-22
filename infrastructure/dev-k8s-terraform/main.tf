@@ -164,7 +164,6 @@ resource "aws_instance" "kube-master" {
         "kubernetes.io/cluster/petclinicCluster" = "owned"
         Project = "tera-kube-ans"
         Role = "master"
-        ,
         Id = "1"
         environment = "dev"
     }
